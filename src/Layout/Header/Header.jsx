@@ -24,7 +24,7 @@ const Header = () => {
                     <NavLink to={'/charts'} >Chart</NavLink>
                     <NavLink to={'/blog'}>Blog</NavLink>
                 </div>
-                <div className="block md:hidden absolute right-0 top-0 mr-2">
+                <div className="block md:hidden absolute right-0 top-3 mr-2">
                     <button
                         className="flex items-center px-3 py-2 border rounded text-indigo-500 border-indigo-500 hover:text-white hover:bg-indigo-500 hover:border-transparent"
                         onClick={handleMenuClick}
@@ -35,7 +35,7 @@ const Header = () => {
             </div>
             {showMenu && (
                 <div className="md:hidden flex flex-col items-center justify-center w-full bg-indigo-300">
-                    <NavLink to={'/'} className="py-3 sm:py-1 rounded-sm sm:px-6 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Home</NavLink>
+                    <NavLink to={'/'} className="py-1 rounded-sm px-6 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Home</NavLink>
                     <NavLink to={'/statistics'} className="py-3 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Statistic</NavLink>
                     <NavLink to={'/charts'} className="py-3 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Chart</NavLink>
                     <NavLink to={'/blog'} className="py-3 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Blog</NavLink>
