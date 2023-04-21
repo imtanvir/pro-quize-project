@@ -1,0 +1,8 @@
+.not-found {
+    height: 91vh;
+    background-color: #fff9ef;
+    background-image: url('/404.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}

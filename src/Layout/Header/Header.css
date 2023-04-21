@@ -1,0 +1,19 @@
+.link-section a {
+    padding: .6rem;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.active {
+    background-color: rgb(111, 135, 255);
+    color: #fff !important;
+}
+
+@media screen and (max-width:576px) {
+    .link-section a {
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+        padding-left: .6rem;
+        padding-right: .6rem;
+    }
+}
