@@ -36,9 +36,9 @@ const Header = () => {
             {showMenu && (
                 <div className="md:hidden flex flex-col items-center justify-center w-full bg-indigo-300">
                     <NavLink to={'/'} className="py-1 rounded-sm px-6 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Home</NavLink>
-                    <NavLink to={'/statistics'} className="py-3 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Statistic</NavLink>
-                    <NavLink to={'/charts'} className="py-3 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Chart</NavLink>
-                    <NavLink to={'/blog'} className="py-3 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Blog</NavLink>
+                    <NavLink to={'/statistics'} className="py-1 rounded-sm px-6 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Statistic</NavLink>
+                    <NavLink to={'/charts'} className="py-1 rounded-sm px-6 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Chart</NavLink>
+                    <NavLink to={'/blog'} className="py-1 rounded-sm px-6 text-lg font-medium text-white hover:bg-indigo-500 hover:text-white" onClick={handleMenuClick}>Blog</NavLink>
                 </div>
             )}
         </div>
